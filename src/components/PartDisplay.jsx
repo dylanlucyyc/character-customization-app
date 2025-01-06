@@ -15,7 +15,7 @@ function PartDisplay({ part, total, character, setCharacter }) {
               character[part] == i + 1 ? "bg-fuchsia-400" : ""
             }`}
             key={`${part}-${i + 1}`}
-            src={`/src/assets/character/${part}/${i + 1}.png`}
+            src={`/public/character/${part}/${i + 1}.png`}
             alt={`Image ${i + 1}`}
             onClick={() => handleClick(i + 1)}
           />

@@ -6,7 +6,7 @@ function CharacterDisplay({ character, getRandomCharacter, setCharacter }) {
           <img
             className="w-[300px] h-auto absolute"
             key={part}
-            src={`/public/character/${part}/${value}.png`}
+            src={`/character/${part}/${value}.png`}
             alt={`Image ${value}`}
           />
         ))}
